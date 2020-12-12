@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/v1">Timeline V1</router-link> |
+       <router-link to="/v2">Timeline V2</router-link>
     </div>
     <router-view/>
   </div>
@@ -15,6 +15,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 #nav {
